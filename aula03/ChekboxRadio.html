@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIO</title>
+</head>
+<body>
+    <form method="post">
+        <h1>Você selecionou: Pizza de calabresa</h1>
+        <p>Quais opcionais você deseja</p>
+
+        <input type="checkbox"  name="opcinal[]" value="queijo"> <label>+queijo</label><br>
+        <input type="checkbox" name="opcinal[]" value="calabresa"><label>+calabresa</label><br>
+        <input type="checkbox" name="opcinal[]" value="cebola"> <label>+cebola</label><br>
+        <input type="checkbox" name="opcinal[]" value="azeitona"><label>+azeitona</label><br>
+
+        <p>Borda recheada?</p>
+
+        <input type="radio" name="borda" value="sim"><label>Sim</label>
+        <input type="radio" name="borda" value="não"><label>Não</label> 
+
+        <p>Bebidas</p>
+
+        <input type="radio" name="bebida" value="suco"><label>suco</label><br>
+        <input type="radio" name="bebida" value="agua"> <label>agua</label><br>
+        <input type="radio" name="bebida" value="refrigerante"><label>refrigerante</label><br>
+        <input type="radio" name="bebida" value="nenhum"><label>nenhum</label><br>
+        <button type="submit">Enviar</button>
+
+    </form>
+</body>
+</html>

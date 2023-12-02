@@ -1,0 +1,24 @@
+* {
+    font-weight: bold;
+}
+h1 {
+    background: darkblue;
+    color: lightblue;
+}
+div {
+    background: lightblue;
+    color: darkblue;
+}
+li {
+    background: lightgreen;
+}
+#bem{
+    background: red;
+    color: white;
+}
+.comuns{
+    color: red;
+}
+.maiusculo{
+    text-transform: uppercase;
+}

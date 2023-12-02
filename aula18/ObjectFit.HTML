@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dio</title>
+    <style>
+div {
+    width: 200px;
+    height: 300px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    border: 5px solid blue;
+}
+#contain {
+    object-fit: contain;
+}
+#cover{
+    object-fit: cover;
+}
+#none{
+    object-fit: none;
+}
+#scale-down{
+    object-fit: scale-down;
+}
+#position{
+    object-fit: cover;
+    object-position: 30px 40px;
+}
+    </style>
+</head>
+<body>
+    <h1>Propriedade object-fit</h1>
+    <code>object-fit: fill</code>
+    <div>
+        <img src="https://media.licdn.com/dms/image/C4E0BAQHu3OWz_9erTA/company-logo_200_200/0/1671135501047?e=2147483647&v=beta&t=Eris-ao-z8v44PrCCzEixVqebqM2IwSE-1aWCQUxwzM" alt="" id="fill">
+
+    </div>
+    <code>object-fit: contain</code>
+    <div>
+        <img src="https://media.licdn.com/dms/image/C4E0BAQHu3OWz_9erTA/company-logo_200_200/0/1671135501047?e=2147483647&v=beta&t=Eris-ao-z8v44PrCCzEixVqebqM2IwSE-1aWCQUxwzM" alt="" id="contain">
+
+    </div> 
+    <code>object-fit:cover</code>
+    <div>
+        <img src="https://media.licdn.com/dms/image/C4E0BAQHu3OWz_9erTA/company-logo_200_200/0/1671135501047?e=2147483647&v=beta&t=Eris-ao-z8v44PrCCzEixVqebqM2IwSE-1aWCQUxwzM" alt="" id="cover">
+
+    </div>
+    <code>object-fit: none</code>
+    <div>
+        <img src="https://media.licdn.com/dms/image/C4E0BAQHu3OWz_9erTA/company-logo_200_200/0/1671135501047?e=2147483647&v=beta&t=Eris-ao-z8v44PrCCzEixVqebqM2IwSE-1aWCQUxwzM" alt="" id="none">
+    </div>
+    <code>object-fit: scale-down</code>
+    <div>
+        <img src="https://media.licdn.com/dms/image/C4E0BAQHu3OWz_9erTA/company-logo_200_200/0/1671135501047?e=2147483647&v=beta&t=Eris-ao-z8v44PrCCzEixVqebqM2IwSE-1aWCQUxwzM" alt="" id="scale-dowm">
+
+    </div>
+    <code>object-position</code>
+    <div>
+        <img src="https://media.licdn.com/dms/image/C4E0BAQHu3OWz_9erTA/company-logo_200_200/0/1671135501047?e=2147483647&v=beta&t=Eris-ao-z8v44PrCCzEixVqebqM2IwSE-1aWCQUxwzM" alt="" id="position">
+
+    </div>
+</body>
+</html>
